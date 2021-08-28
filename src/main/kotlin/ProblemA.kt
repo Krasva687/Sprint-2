@@ -11,7 +11,7 @@ class ProblemA {
         //считываем массив прыжков лягушки
         val frogJumps = readListInt()
         //обнуляем первую координату для лягушки
-            var frogEndCoordinate = 0
+            var frogEndCoordinate = 0L
             //считаем конечную координату для каждого запроса
         for(j in frogJumps.indices){
 
@@ -19,7 +19,6 @@ class ProblemA {
                 frogEndCoordinate += frogJumps[j]
 
             } else if((j + 1) % 2 == 0) {
-
                 frogEndCoordinate -= frogJumps[j]
             }
 
