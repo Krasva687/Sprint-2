@@ -18,7 +18,7 @@ class ProblemD {
             var resultMaxProfit = 0L
 
             //открываем цикл для поиска наибольшей выгоды для кафе
-            for(j in 0..moneyOfCompany.size-1){
+            for(j in 0 until moneyOfCompany.size){
 
                 //если у нас один человек максимальная выгода будет если бургер равняется количеству денег у покупателя
                 if(moneyOfCompany.size == 1){

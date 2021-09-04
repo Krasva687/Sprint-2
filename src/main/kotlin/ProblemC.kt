@@ -11,7 +11,7 @@ class ProblemC {
 
         var countExcersice = 0
 
-        for(i in 0..(countOfStudent - 1) step 2){
+        for(i in 0 until countOfStudent step 2){
             countExcersice += studentAndSkills[i+1] - studentAndSkills[i]
 
         }
